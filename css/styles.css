@@ -1,0 +1,140 @@
+body{
+  background-color: #b3ffb3;
+  text-align:center;
+
+}
+
+hr{
+  margin: 50px;
+}
+
+.top{
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.top img{
+  height: 350px
+}
+
+.nav-mainMenu{
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none; /*REMOVE BULLETS */
+  margin: 0; /*MARGIN AND PADDING: to remove browser default settings */
+  padding: 0;
+}
+
+.nav-mainMenu li{
+  display: inline; /* pondra los elemenos en forma horizontal*/
+  padding: 0 100px;
+}
+
+.textInicio h3{
+  margin: 50px;
+}
+
+.Equipos{
+  display:flex;
+}
+
+.Equipos{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+/*
+  vertical-align: top;
+  text-align: center;
+  gap: 25px;
+*/
+}
+
+.Equipos .Imgtx img{
+  height: 300px;
+  width: 100%;
+}
+
+.Equipos .Imgtx h4{
+  text-align: left;
+}
+
+.Equipos .Imgtx p{
+  text-align: left;
+}
+
+
+/*<--Sucursales-->*/
+
+.sucursales{
+  display: inline-block;
+}
+
+.sucursales img{
+  float:left;
+  height: 500px;
+  margin-right: 75px
+}
+
+.sucursales p{
+  text-align: left;
+  margin-top: 0;
+}
+
+/*<--- Contactos --->*/
+
+.contactos{
+  display: flex;
+  margin: auto;
+  width: 80em;
+
+}
+
+.contactos .img-contactos{
+  display: block;
+  margin: 95px 50px 95px 100px;
+}
+
+.contactos .informacionContacto h3{
+  text-align: left;
+}
+
+.redes:hover .img-contactos{
+  background-color: yellow;
+}
+
+
+.contactos .informacionContacto .enlace{
+  display: block;
+  margin: 90px 150px 105px 0px;
+
+}
+
+
+
+/*
+}
+.contactos .informacionContacto{
+  text-align: left;
+}
+
+.contactos .redes{
+  position: absolute;
+  margin-left: 100px;
+  padding: 0;
+}
+*/
+
+/*
+.redBox{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+
+.blueBox{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+
+}
+*/
